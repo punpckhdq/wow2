@@ -1,0 +1,16 @@
+[package]
+name = "wow2"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "dumper"
+path = "src/pdb_dump.rs"
+
+[[bin]]
+name = "splitter"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1.0.100"
+ms-pdb = "0.1.10"
